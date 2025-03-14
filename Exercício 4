@@ -1,0 +1,19 @@
+programa {
+  funcao inicio() {
+    
+    real c, t, j
+    inteiro m
+
+    escreva ("Digite o valor do empréstimo: ")
+    leia (c)
+    escreva ("Digite a quantidade de meses: ")
+    leia (m)
+    escreva ("Digite a taxa de juros ao mês em %: ")
+    leia (t)
+    
+    t = t / 100
+    j = c * m * t
+
+    escreva ("Os juros cobrados no empréstimo são: R$ ", j)
+  }
+}
