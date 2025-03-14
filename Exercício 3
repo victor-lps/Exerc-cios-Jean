@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    inteiro n1, n2, n3
+
+    escreva ("Escreva três números, do menor para o maior, prmieiro número:  ")
+    leia (n1)
+    escreva ("Segundo número: ")
+    leia (n2)
+    escreva ("Terceiro número: ")
+    leia (n3)
+    
+    escreva ("Esses são os seus números do maior para o menor: " + n3, n2, n1 )
+
+    
+    
+  }
+}
