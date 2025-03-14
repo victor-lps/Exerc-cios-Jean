@@ -1,0 +1,16 @@
+programa {
+  funcao inicio() {
+    
+  inteiro a, b, c, med
+
+  escreva ("Escreva a primeira nota: ")
+  leia (a)
+  escreva ("Escreva a segunda nota: ")
+  leia (b)
+  escreva ("Escreva a tarceira nota: ")
+  leia (c)
+  med = (a + b + c) / 3
+
+  escreva ("A média das notas é: " + med)
+  }
+}
