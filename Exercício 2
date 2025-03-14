@@ -1,0 +1,14 @@
+programa {
+  funcao inicio() {
+    inteiro bytes
+    real kb
+
+    escreva ("Escreva seu número em Bytes: ")
+    leia (bytes)
+
+    kb = bytes / 1024
+
+    escreva ("Seu número em KB é: " + kb)
+    
+  }
+}
