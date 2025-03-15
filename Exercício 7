@@ -1,0 +1,18 @@
+programa {
+  funcao inicio() {
+    real a, b, c, delta
+
+    escreva ("Vamos calcular uma equação do segundo grau, colque o valor de A: ")
+    leia (a)
+    escreva ("Coloque o valor de B: ")
+    leia (b)
+    escreva ("Coloque o valor de C: ")
+    leia (c)
+    
+    delta = (b * b) - (4 * a * c)
+
+    escreva ("O resultado de delta é: ", delta)
+
+    
+  }
+}
