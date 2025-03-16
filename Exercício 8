@@ -1,0 +1,16 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    
+    real ca, co, h
+    escreva ("Escreva o valor do Cateto Adjacente: ")
+    leia (ca)
+    escreva ("Escreva o valor do Cateto Oposto: ")
+    leia (co)
+    
+    
+    h = mat.raiz(mat.potencia(co, 2) + mat.potencia(ca, 2), 2)
+
+    escreva ("Essa é a sua Hipotenusa: ", h)
+  }
+}
