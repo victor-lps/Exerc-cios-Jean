@@ -1,0 +1,23 @@
+programa {
+  inclua biblioteca Matematica --> mat
+  funcao inicio() {
+    
+    real a, b, c, per, semip, area
+
+    escreva ("Digite o valor do lado A do triângulo: ")
+    leia (a)
+    escreva ("Digite o valor do lado B do triângulo: ")
+    leia (b)
+    escreva ("Digite o valor do lado C do triângulo: ")
+    leia (c)
+
+    per = (a + b + c)
+    
+    semip = per/2
+
+    area = mat.raiz(semip *(semip - a)*(semip - b)*(semip - c), 2)
+
+    escreva ("O perimetro do triângulo é: ", per)
+    escreva ("\n A área do triângulo é: ", area)
+  }
+}
