@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real h, r, v, pi
+
+    escreva ("Digite o valor da Altura: ")
+    leia (h)
+    escreva ("Digite o valor do Raio: ")
+    leia (r)
+
+    pi = 3.14159
+
+    v = (pi * r * r * h)
+
+    escreva ("O valor do volume é: ", v)
+    
+  }
+}
