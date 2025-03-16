@@ -1,0 +1,17 @@
+programa {
+  funcao inicio() {
+    real pi, r, a
+    
+    escreva ("Digite o valor de R: ")
+    leia (r)
+
+    pi = 3.14159
+
+    a = (pi * r * r)
+
+    escreva ("O valor da Área é: ", a)
+
+
+
+  }
+}
